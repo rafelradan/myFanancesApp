@@ -3,11 +3,6 @@
     margin: 0;
 }
 
-:root {
-    --primary-color: #133212;
-    --second-color: #fff;
-
-}
 
 .content {
    margin: auto;
@@ -21,6 +16,28 @@
         font-family: arial, sans-serif;
         border-collapse: collapse;
         width: 100%;
+        }
+
+        .btnExcluir {
+            background-color: var(--tird-color);
+            color: var(--second-color);
+            padding: 2px;
+            min-width: 5rem;;
+
+            font-size: 0,5rem;
+            border: solid 1px var(--second-color);
+            border-radius: 0.5rem;
+            cursor: pointer;
+
+        }
+
+        .btnExcluir:hover{
+            background-color: var(--second-color);
+            border: solid 1px var(--primary-color);
+            color: var(--primary-color);
+            
+            
+    
         }
 
         th {

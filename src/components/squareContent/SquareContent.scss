@@ -3,19 +3,12 @@
     margin: 0;
 }
 
-:root {
-    --primary-color: #133212;
-    --second-color: rgb(208, 225, 208);
-    --tird-color: #373737;
-
-}
-
 .square {
-    background-color: rgb(32, 88, 55);
+    background-color: var(--tird-color);
+    color: var(--second-color);
     width: 13rem;
     height: 5rem;
 
-  //  border: solid 1px var(--tird-color);
     border-radius: 0.7rem;
 
     .top {

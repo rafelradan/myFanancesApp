@@ -15,6 +15,7 @@ import './App.scss'
 
 
 function App() {
+    localStorage.mfValues ? console.log('Bem vinda(a) ao App My Finances') : localStorage.setItem('mfValues', [])
 
     const dataUpdated = localStorage.getItem('mfValues')
     const [ dataValues, setDataValues ] = useState(dataUpdated ? JSON.parse(dataUpdated) : [])
@@ -62,7 +63,7 @@ function App() {
         <Resume income={income} expense={expense} />
         <FormInsertValue triger={handdleTriger} />
         <Table triger={handdleTriger}  />
-       
+       <footer>Developed by Rafael Nascimento</footer>
       </Provider>
     </div>
   );
