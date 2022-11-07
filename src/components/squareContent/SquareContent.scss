@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-color: #133212;
+    --second-color: rgb(208, 225, 208);
+    --tird-color: #373737;
+
+}
+
+.square {
+    background-color: rgb(32, 88, 55);
+    width: 13rem;
+    height: 5rem;
+
+  //  border: solid 1px var(--tird-color);
+    border-radius: 0.7rem;
+
+    .top {
+        display: flex;
+        justify-content: space-around;
+
+        margin: 0.5rem;
+
+        img {
+            width: 1rem;
+        }
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+
+        font-weight: 900;
+        margin-top: 1.5rem;
+
+    }
+}

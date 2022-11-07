@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+:root {
+    --primary-color: #10860e;
+    --second-color: #fff;
+
+}
+
+
+.resume {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+
+    margin-top: -3rem;
+
+    max-width: 780px;
+    height: 6rem;
+   // border: solid 1px rgb(23, 0, 128);
+}
