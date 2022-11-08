@@ -66,7 +66,7 @@ export default function FormInsertValue( {triger} ){
     return(
         <div className="form-incert-value">
             <div className="form-head">
-                <h4>Incerir Dados</h4>
+                <h4>Inserir Dados</h4>
             </div>
             <div className="form-content">
                 <div className="incert-datas">
