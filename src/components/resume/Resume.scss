@@ -4,15 +4,37 @@
     font-family: arial, sans-serif;
 }
 
-.resume {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
+@media (min-width: 768px) { 
+    .resume {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+    
+        margin-top: -3rem;
+    
+        max-width: 900px;
+        height: 8rem;
+       // border: solid 1px rgb(23, 0, 128);
+    }
 
-    margin-top: -3rem;
-
-    max-width: 780px;
-    height: 6rem;
-   // border: solid 1px rgb(23, 0, 128);
 }
+
+
+//********** RESPONSIVE **********\\
+
+@media (min-width: 320px) {
+
+    .resume {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+    
+        margin-top: -3rem;
+    
+        max-width: 900px;
+        height: 8rem;
+       // border: solid 1px rgb(23, 0, 128);
+    }
+ }

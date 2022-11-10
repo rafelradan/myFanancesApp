@@ -63,7 +63,7 @@ function App() {
         <Resume income={income} expense={expense} />
         <FormInsertValue triger={handdleTriger} />
         <Table triger={handdleTriger}  />
-       <footer>Developed by Rafael Nascimento</footer>
+       {/* <footer>Developed by Rafael Nascimento</footer> */}
       </Provider>
     </div>
   );
